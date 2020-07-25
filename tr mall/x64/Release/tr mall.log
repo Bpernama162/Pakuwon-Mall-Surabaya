@@ -1,35 +1,57 @@
 ﻿  PakuwonMallSurabaya.cpp
-C:\Users\hasshh\source\repos\tr mall\tr mall\PakuwonMallSurabaya.cpp(28,17): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-C:\Users\hasshh\source\repos\tr mall\tr mall\PakuwonMallSurabaya.cpp(62,26): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\hasshh\source\repos\tr mall\tr mall\PakuwonMallSurabaya.cpp(70,26): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\hasshh\source\repos\tr mall\tr mall\PakuwonMallSurabaya.cpp(77,26): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\hasshh\source\repos\tr mall\tr mall\PakuwonMallSurabaya.cpp(88,26): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\hasshh\source\repos\tr mall\tr mall\PakuwonMallSurabaya.cpp(119,26): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\hasshh\source\repos\tr mall\tr mall\PakuwonMallSurabaya.cpp(126,26): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\hasshh\source\repos\tr mall\tr mall\PakuwonMallSurabaya.cpp(1017,35): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-C:\Users\hasshh\source\repos\tr mall\tr mall\PakuwonMallSurabaya.cpp(1018,35): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-C:\Users\hasshh\source\repos\tr mall\tr mall\PakuwonMallSurabaya.cpp(1023,35): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-C:\Users\hasshh\source\repos\tr mall\tr mall\PakuwonMallSurabaya.cpp(1024,35): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-C:\Users\hasshh\source\repos\tr mall\tr mall\PakuwonMallSurabaya.cpp(1029,35): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-C:\Users\hasshh\source\repos\tr mall\tr mall\PakuwonMallSurabaya.cpp(1030,35): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-C:\Users\hasshh\source\repos\tr mall\tr mall\PakuwonMallSurabaya.cpp(1047,35): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-C:\Users\hasshh\source\repos\tr mall\tr mall\PakuwonMallSurabaya.cpp(1048,35): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-C:\Users\hasshh\source\repos\tr mall\tr mall\PakuwonMallSurabaya.cpp(1053,35): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-C:\Users\hasshh\source\repos\tr mall\tr mall\PakuwonMallSurabaya.cpp(1054,35): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-C:\Users\hasshh\source\repos\tr mall\tr mall\PakuwonMallSurabaya.cpp(1059,35): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-C:\Users\hasshh\source\repos\tr mall\tr mall\PakuwonMallSurabaya.cpp(1060,35): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-C:\Users\hasshh\source\repos\tr mall\tr mall\PakuwonMallSurabaya.cpp(1065,35): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-C:\Users\hasshh\source\repos\tr mall\tr mall\PakuwonMallSurabaya.cpp(1066,35): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-C:\Users\hasshh\source\repos\tr mall\tr mall\PakuwonMallSurabaya.cpp(1071,35): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-C:\Users\hasshh\source\repos\tr mall\tr mall\PakuwonMallSurabaya.cpp(1072,34): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-C:\Users\hasshh\source\repos\tr mall\tr mall\PakuwonMallSurabaya.cpp(1077,35): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-C:\Users\hasshh\source\repos\tr mall\tr mall\PakuwonMallSurabaya.cpp(1078,34): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-C:\Users\hasshh\source\repos\tr mall\tr mall\PakuwonMallSurabaya.cpp(1089,35): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-C:\Users\hasshh\source\repos\tr mall\tr mall\PakuwonMallSurabaya.cpp(1090,34): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-C:\Users\hasshh\source\repos\tr mall\tr mall\PakuwonMallSurabaya.cpp(1101,35): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-C:\Users\hasshh\source\repos\tr mall\tr mall\PakuwonMallSurabaya.cpp(1102,34): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\hasshh\source\repos\tr mall\tr mall\PakuwonMallSurabaya.cpp(24,17): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\hasshh\source\repos\tr mall\tr mall\PakuwonMallSurabaya.cpp(58,26): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\hasshh\source\repos\tr mall\tr mall\PakuwonMallSurabaya.cpp(66,26): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\hasshh\source\repos\tr mall\tr mall\PakuwonMallSurabaya.cpp(73,26): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\hasshh\source\repos\tr mall\tr mall\PakuwonMallSurabaya.cpp(84,26): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\hasshh\source\repos\tr mall\tr mall\PakuwonMallSurabaya.cpp(115,26): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\hasshh\source\repos\tr mall\tr mall\PakuwonMallSurabaya.cpp(122,26): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\hasshh\source\repos\tr mall\tr mall\PakuwonMallSurabaya.cpp(995,35): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\hasshh\source\repos\tr mall\tr mall\PakuwonMallSurabaya.cpp(996,35): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\hasshh\source\repos\tr mall\tr mall\PakuwonMallSurabaya.cpp(1001,35): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\hasshh\source\repos\tr mall\tr mall\PakuwonMallSurabaya.cpp(1002,35): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\hasshh\source\repos\tr mall\tr mall\PakuwonMallSurabaya.cpp(1007,35): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\hasshh\source\repos\tr mall\tr mall\PakuwonMallSurabaya.cpp(1008,35): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\hasshh\source\repos\tr mall\tr mall\PakuwonMallSurabaya.cpp(1025,35): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\hasshh\source\repos\tr mall\tr mall\PakuwonMallSurabaya.cpp(1026,35): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\hasshh\source\repos\tr mall\tr mall\PakuwonMallSurabaya.cpp(1031,35): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\hasshh\source\repos\tr mall\tr mall\PakuwonMallSurabaya.cpp(1032,35): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\hasshh\source\repos\tr mall\tr mall\PakuwonMallSurabaya.cpp(1037,35): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\hasshh\source\repos\tr mall\tr mall\PakuwonMallSurabaya.cpp(1038,35): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\hasshh\source\repos\tr mall\tr mall\PakuwonMallSurabaya.cpp(1043,35): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\hasshh\source\repos\tr mall\tr mall\PakuwonMallSurabaya.cpp(1044,35): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\hasshh\source\repos\tr mall\tr mall\PakuwonMallSurabaya.cpp(1049,35): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\hasshh\source\repos\tr mall\tr mall\PakuwonMallSurabaya.cpp(1050,34): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\hasshh\source\repos\tr mall\tr mall\PakuwonMallSurabaya.cpp(1055,35): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\hasshh\source\repos\tr mall\tr mall\PakuwonMallSurabaya.cpp(1056,34): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\hasshh\source\repos\tr mall\tr mall\PakuwonMallSurabaya.cpp(1067,35): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\hasshh\source\repos\tr mall\tr mall\PakuwonMallSurabaya.cpp(1068,34): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\hasshh\source\repos\tr mall\tr mall\PakuwonMallSurabaya.cpp(1079,35): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\hasshh\source\repos\tr mall\tr mall\PakuwonMallSurabaya.cpp(1080,34): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\hasshh\source\repos\tr mall\tr mall\PakuwonMallSurabaya.cpp(1097,34): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\hasshh\source\repos\tr mall\tr mall\PakuwonMallSurabaya.cpp(1098,34): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\hasshh\source\repos\tr mall\tr mall\PakuwonMallSurabaya.cpp(1103,34): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\hasshh\source\repos\tr mall\tr mall\PakuwonMallSurabaya.cpp(1104,34): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\hasshh\source\repos\tr mall\tr mall\PakuwonMallSurabaya.cpp(1109,34): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\hasshh\source\repos\tr mall\tr mall\PakuwonMallSurabaya.cpp(1110,34): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\hasshh\source\repos\tr mall\tr mall\PakuwonMallSurabaya.cpp(1127,34): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\hasshh\source\repos\tr mall\tr mall\PakuwonMallSurabaya.cpp(1128,34): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\hasshh\source\repos\tr mall\tr mall\PakuwonMallSurabaya.cpp(1133,34): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\hasshh\source\repos\tr mall\tr mall\PakuwonMallSurabaya.cpp(1134,34): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\hasshh\source\repos\tr mall\tr mall\PakuwonMallSurabaya.cpp(1139,34): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\hasshh\source\repos\tr mall\tr mall\PakuwonMallSurabaya.cpp(1140,34): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\hasshh\source\repos\tr mall\tr mall\PakuwonMallSurabaya.cpp(1145,34): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\hasshh\source\repos\tr mall\tr mall\PakuwonMallSurabaya.cpp(1146,34): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\hasshh\source\repos\tr mall\tr mall\PakuwonMallSurabaya.cpp(1192,35): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\hasshh\source\repos\tr mall\tr mall\PakuwonMallSurabaya.cpp(1193,34): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\hasshh\source\repos\tr mall\tr mall\PakuwonMallSurabaya.cpp(1198,35): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\hasshh\source\repos\tr mall\tr mall\PakuwonMallSurabaya.cpp(1199,34): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\hasshh\source\repos\tr mall\tr mall\PakuwonMallSurabaya.cpp(1210,35): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\hasshh\source\repos\tr mall\tr mall\PakuwonMallSurabaya.cpp(1211,34): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\hasshh\source\repos\tr mall\tr mall\PakuwonMallSurabaya.cpp(1222,35): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\hasshh\source\repos\tr mall\tr mall\PakuwonMallSurabaya.cpp(1223,34): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
   Generating code
-  2 of 13 functions (15.4%) were compiled, the rest were copied from previous compilation.
+  1 of 15 functions ( 6.7%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
     1 functions had inline decision re-evaluated but remain unchanged
   Finished generating code

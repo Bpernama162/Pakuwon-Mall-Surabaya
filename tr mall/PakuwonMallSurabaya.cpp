@@ -4,24 +4,20 @@
 #include <math.h>
 #include <stdlib.h.>
 
-///w >> perbesar
-///s >> perkecil
-///d >> geser kanan
-///a >> geser kiri
-///1 >> menampilkan bagian dalam
-///2 >> bergerak keatas
-///3 >> bergerak kebawah
-///4 >> putar kebawah
-///5 >> putar keatas
-///6 >> putar kanan
-///7 >> putar kiri
-///8 >> putar samping kiri
-///9 >> putar samping kanan
 
 void init(void);
 void hasil(void);
 void keyboard(unsigned char, int, int);
 void ukuran(int, int);
+static int year1 = 0, day1 = 0, year2 = 0, day2 = 0;
+float xrot = 0.0f;
+float yrot = 0.0f;
+float xdiff = 0.0f;
+float ydiff = 0.0f;
+
+int i;
+
+bool mouseDown = false;
 
 int is_depth;
 float w(int x) {
@@ -133,24 +129,6 @@ void tabung2(float radatas, float radbawah, float tinggi, float x, float y, floa
     glPopMatrix();
 }
 
-void init(void)
-{
-    glClearColor(0.5, 0.5, 1.0, 0.5);
-    glEnable(GL_DEPTH_TEST);
-    glMatrixMode(GL_MODELVIEW);
-    glPointSize(6.0);
-    glLineWidth(3.0f);
-    glEnable(GL_LIGHTING);
-    glEnable(GL_COLOR_MATERIAL);
-    glEnable(GL_LIGHT0);
-    glEnable(GL_DEPTH_TEST);
-    glEnable(GL_NORMALIZE);
-    is_depth = 1;
-    glDepthFunc(GL_LEQUAL);
-    glShadeModel(GL_SMOOTH);
-    glHint(GL_PERSPECTIVE_CORRECTION_HINT, GL_NICEST);
-
-}
 
 void gedungpanjang()
 {
@@ -1113,6 +1091,109 @@ void gedungpanjang()
     glVertex3f(-23.5, 108.0, -88.5);
     glVertex3f(-23.5, 90.0, -88.5);
     glEnd();
+    //merah
+    glBegin(GL_LINES);
+    glColor4f(1.0f, 0.0f, 0.0f, 0.0f);
+    glVertex3f(-19.8, 88.0, -67.0);
+    glVertex3f(-19.8, 70.0, -67.0);
+    glEnd();
+
+    glBegin(GL_LINES);
+    glColor4f(1.0f, 0.0f, 0.0f, 0.0f);
+    glVertex3f(-24.2, 88.0, -70.0);
+    glVertex3f(-24.2, 70.0, -70.0);
+    glEnd();
+
+    glBegin(GL_LINES);
+    glColor4f(1.0f, 0.0f, 0.0f, 0.0f);
+    glVertex3f(-26.4, 88.0, -73.0);
+    glVertex3f(-26.4, 70.0, -73.0);
+    glEnd();
+
+    glBegin(GL_LINES);
+    glColor4f(1.0f, 0.0f, 0.0f, 0.0f);
+    glVertex3f(-27.5, 88.0, -76.0);
+    glVertex3f(-27.5, 70.0, -76.0);
+    glEnd();
+
+    glBegin(GL_LINES);
+    glColor4f(1.0f, 0.0f, 0.0f, 0.0f);
+    glVertex3f(-27.5, 88.0, -79.0);
+    glVertex3f(-27.5, 70.0, -79.0);
+    glEnd();
+
+    glBegin(GL_LINES);
+    glColor4f(1.0f, 0.0f, 0.0f, 0.0f);
+    glVertex3f(-27.2, 88.0, -82.0);
+    glVertex3f(-27.2, 70.0, -82.0);
+    glEnd();
+
+    glBegin(GL_LINES);
+    glColor4f(1.0f, 0.0f, 0.0f, 0.0f);
+    glVertex3f(-25.8, 88.0, -85.0);
+    glVertex3f(-25.8, 70.0, -85.0);
+    glEnd();
+
+    glBegin(GL_LINES);
+    glColor4f(1.0f, 0.0f, 0.0f, 0.0f);
+    glVertex3f(-23.2, 88.0, -88.0);
+    glVertex3f(-23.2, 70.0, -88.0);
+    glEnd();
+
+    glBegin(GL_LINES);
+    glColor4f(1.0f, 0.0f, 0.0f, 0.0f);
+    glVertex3f(-19.8, 88.0, -90.0);
+    glVertex3f(-19.8, 70.0, -90.0);
+    glEnd();
+
+    //ungu
+    glBegin(GL_LINES);
+    glColor4f(1.0f, 0.0f, 1.0f, 0.0f);
+    glVertex3f(-21.8, 68.0, -67.5);
+    glVertex3f(-21.8, 50.0, -67.5);
+    glEnd();
+
+    glBegin(GL_LINES);
+    glColor4f(1.0f, 0.0f, 1.0f, 0.0f);
+    glVertex3f(-24.8, 68.0, -70.5);
+    glVertex3f(-24.8, 50.0, -70.5);
+    glEnd();
+
+    glBegin(GL_LINES);
+    glColor4f(1.0f, 0.0f, 1.0f, 0.0f);
+    glVertex3f(-26.5, 68.0, -73.5);
+    glVertex3f(-26.5, 50.0, -73.5);
+    glEnd();
+
+    glBegin(GL_LINES);
+    glColor4f(1.0f, 0.0f, 1.0f, 0.0f);
+    glVertex3f(-27.4, 68.0, -76.5);
+    glVertex3f(-27.4, 50.0, -76.5);
+    glEnd();
+
+    glBegin(GL_LINES);
+    glColor4f(1.0f, 0.0f, 1.0f, 0.0f);
+    glVertex3f(-27.5, 68.0, -79.5);
+    glVertex3f(-27.5, 50.0, -79.5);
+    glEnd();
+
+    glBegin(GL_LINES);
+    glColor4f(1.0f, 0.0f, 1.0f, 0.0f);
+    glVertex3f(-26.8, 68.0, -82.5);
+    glVertex3f(-26.8, 50.0, -82.5);
+    glEnd();
+
+    glBegin(GL_LINES);
+    glColor4f(1.0f, 0.0f, 1.0f, 0.0f);
+    glVertex3f(-26.0, 68.0, -85.5);
+    glVertex3f(-26.0, 50.0, -85.5);
+    glEnd();
+
+    glBegin(GL_LINES);
+    glColor4f(1.0f, 0.0f, 1.0f, 0.0f);
+    glVertex3f(-23.5, 68.0, -88.5);
+    glVertex3f(-23.5, 50.0, -88.5);
+    glEnd();
 
     //lamputengah
     glBegin(GL_LINES);
@@ -1133,6 +1214,7 @@ void gedungpanjang()
     glVertex3f(7.0, 55.0, -1.0);
     glVertex3f(7.0, 62.0, -1.0);
     glEnd();
+
     //lamputengah2
     glBegin(GL_LINES);
     glColor4f(1.0f, 1.0f, 0.6f, 0.0f);
@@ -1153,6 +1235,7 @@ void gedungpanjang()
     glVertex3f(7.0, 62.0, -23.0);
     glEnd();
 
+    
 }
 void hasil(void)
 {
@@ -1176,10 +1259,58 @@ void hasil(void)
     tabung(25.0f, 25.0f, 40.0f, -80.0, -35.0, 20.0, c[255], c[255], c[255], 0, 360);
     tabung(25.0f, 25.0f, 23.0f, -10.0, -35.0, -40.0, c[255], c[255], c[255], 0, 360);
     tabung(25.0f, 25.0f, 40.0f, -80.0, -35.0, -40.0, c[255], c[255], c[255], 0, 360);
-    glPopMatrix();
+ 
+     glPopMatrix();
+    
+
+
     glutSwapBuffers();
 }
 
+void idle() {
+    if (!mouseDown) {
+        xrot += 0.3f;
+        yrot += 0.4f;
+    }
+    glutPostRedisplay();
+}
+
+void mouse(int button, int state, int x, int y) {
+    if (button == GLUT_LEFT_BUTTON)
+    {
+        mouseDown = true;
+        xdiff = x - yrot;
+        ydiff = -y + xrot;
+    }
+    else
+        mouseDown = false;
+}
+
+void mouseMotion(int x, int y) {
+    if (mouseDown) {
+        yrot = x - xdiff;
+        xrot = y + ydiff;
+
+    } glutPostRedisplay();
+}
+void init(void)
+{
+    glClearColor(0.5, 0.5, 1.0, 0.5);
+    glEnable(GL_DEPTH_TEST);
+    glMatrixMode(GL_MODELVIEW);
+    glPointSize(6.0);
+    glLineWidth(3.0f);
+    glEnable(GL_LIGHTING);
+    glEnable(GL_COLOR_MATERIAL);
+    glEnable(GL_LIGHT0);
+    glEnable(GL_DEPTH_TEST);
+    glEnable(GL_NORMALIZE);
+    is_depth = 1;
+    glDepthFunc(GL_LEQUAL);
+    glShadeModel(GL_SMOOTH);
+    glHint(GL_PERSPECTIVE_CORRECTION_HINT, GL_NICEST);
+
+}
 void keyboard(unsigned char key, int x, int y)
 {
     switch (key)
@@ -1228,17 +1359,7 @@ void keyboard(unsigned char key, int x, int y)
     case '5':
         glRotatef(-2.0, 1.0, 0.0, 0.0);
         break;
-    case '1':
-        if (is_depth)
-        {
-            is_depth = 0;
-            glDisable(GL_DEPTH_TEST);
-        }
-        else
-        {
-            is_depth = 1;
-            glEnable(GL_DEPTH_TEST);
-        }
+   
     }
     hasil();
 
@@ -1247,7 +1368,8 @@ void keyboard(unsigned char key, int x, int y)
 void ukuran(int lebar, int tinggi)
 {
     if (tinggi == 0) tinggi = 1;
-    
+    GLfloat aspect = (GLfloat)lebar / (GLfloat)tinggi;
+    glViewport(0, 0, lebar, tinggi);
     glMatrixMode(GL_PROJECTION);
     glLoadIdentity();
     gluPerspective(50.0, lebar / tinggi, 5.0, 500.0);
@@ -1267,6 +1389,8 @@ int main(int argc, char** argv)
     init();
     glutDisplayFunc(hasil);
     glutKeyboardFunc(keyboard);
+    glutMouseFunc(mouse);
+    glutMotionFunc(mouseMotion);
     glutReshapeFunc(ukuran);
     glutMainLoop();
     return 0;
